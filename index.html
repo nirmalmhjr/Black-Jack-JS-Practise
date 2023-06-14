@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Black Jack</h2>
+        <h3 id="result">Let's Play</h3>
+        <div class="flex-blackjack-row-1">
+            <div class="you-box" id="you-box">
+                <h2>You : <span id="you-box-result">0 </span></h2>
+                <div id="you-box-image"></div>
+            </div>
+            <div class="dealer-box" id="dealer-box">
+                <h2>Dealer : <span id="dealer-box-result">0</span></h2>
+                <div id="dealer-box-image"></div>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <button class="green" id="blackJackHit">Hit</button>
+            <button class="red" id="blackJackStand">Stand</button>
+            <button class=" yellow" id="blackJackDeal">Deal</button>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table>
+            <tr>
+                <th>Win</th>
+                <th>Draw</th>
+                <th>Loss</th>       
+            </tr>
+            <tr>
+                <td id="winPoint">0</td>
+                <td id="drawPoint">0</td>
+                <td id="lossPoint">0</td>
+            </tr>
+            </table>
+        </div>
+
+    </div>
+
+<script src="/scriptPractise.js"></script>
+</body>
+</html>
