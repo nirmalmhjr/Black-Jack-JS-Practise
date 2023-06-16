@@ -19,7 +19,7 @@ border: 1px solid black;
 }
 
 .flex-blackjack-row-1,.flex-blackjack-row-2 {
-    background: url(/images/blackjack-background1.jpg);
+    background-image: url(/images/blackjack-background1.jpg);
     color: wheat;
 }
 
